@@ -4,3 +4,7 @@ Pytorch implementation for Slot Attention with Value Normalization (SAVN)(Wang e
 We are about to graduate and are busy looking for work.
 
 After that, if time permits, we will sort out the code and upload it soon.
+
+## Incomplete Ontology Evaluation Details
+
+![image](https://github.com/wyxlzsq/savn/blob/master/.metas/ioed.png)
