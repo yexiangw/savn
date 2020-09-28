@@ -7,4 +7,6 @@ After that, if time permits, we will sort out the code and upload it soon.
 
 ## Incomplete Ontology Evaluation Details
 
-![image](https://github.com/wyxlzsq/savn/blob/master/.metas/ioed.png)
+<div align=center>
+  <img src="https://github.com/wyxlzsq/savn/blob/master/.metas/ioed.png" alt="Incomplete Ontology Evaluation Details"/>
+</div>
