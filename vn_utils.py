@@ -1,6 +1,6 @@
 import json
 from transformers import BertTokenizer, BertConfig
-from utils.fix_train_label import *
+from utils.sp_label import *
 from tqdm import tqdm
 import torch
 from vn_model import ValueNormalize

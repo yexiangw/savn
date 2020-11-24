@@ -9,7 +9,7 @@ from transformers import BertModel, BertConfig
 from vn_model import ValueNormalize
 import torch
 from torch import nn
-from utils.fix_train_label import *
+from utils.sp_label import *
 from vn_utils import get_answer_from_vn
 import collections
 
