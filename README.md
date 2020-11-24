@@ -26,11 +26,26 @@ Incompleteness of domain ontology and unavailability of some values are two inev
 
 ### Model
 
-![The overview of SAVN](https://github.com/wyxlzsq/savn/blob/master/.metas/SAVN.png)
+<p align="center">
+<img src=".metas/SAVN.png" width="50%" />
+    The overview of SAVN
+</p>
 
-![The model architecture of Slot Attention.](https://github.com/wyxlzsq/savn/blob/master/.metas/SA.png)
 
-![The model architecture of Value Normalization.](https://github.com/wyxlzsq/savn/blob/master/.metas/VN.png)
+
+<p align="center">
+<img src=".metas/SA.png" width="90%" />
+    The model architecture of Slot Attention.
+</p>
+
+
+
+<p align="center">
+<img src=".metas/VN.png" width="40%" />
+    The model architecture of Value Normalization.
+</p>
+
+
 
 ### Run
 
