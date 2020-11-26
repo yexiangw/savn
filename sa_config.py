@@ -101,8 +101,6 @@ def set_config():
         args.do_train = True
         args.evaluate_during_training = True
 
-    args.checkpoint_path = join(args.output_dir, "checkpoints")
-    args.prediction_path = join(args.output_dir, "predictions")
     save_settings(args)
 
     return args
@@ -115,6 +113,4 @@ def save_settings(args):
             "Output directory ({}) already exists and is not empty. Use --overwrite_output_dir to overcome.".format(
                 args.output_dir))
     os.makedirs(args.output_dir, exist_ok=True)
-    os.makedirs(args.checkpoint_path, exist_ok=True)
-    os.makedirs(args.prediction_path, exist_ok=True)
     json.dump(args.__dict__, open(join(args.output_dir, "run_settings.json"), 'w'))
