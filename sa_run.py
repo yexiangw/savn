@@ -325,7 +325,7 @@ def main():
         for checkpoint in checkpoints:
             global_step = checkpoint.split('-')[-1] if len(checkpoints) > 1 else ""
             config = BertConfig.from_pretrained(checkpoint, num_labels=3)
-            model = SlotAttention.from_pretrained(checkpoint, config=config)
+            model = SlotAttention.from_pretrained(checkpoint, config=config, args=args)
             model.to(args.device)
             result = evaluate(args, model, tokenizer, prefix=global_step)
 
