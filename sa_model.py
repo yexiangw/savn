@@ -66,7 +66,8 @@ class SlotAttention(BertPreTrainedModel):
                 start_positions=None, end_positions=None):
         sequence_output, pool_output = self.bert(input_ids,
                                                  attention_mask=attention_mask,
-                                                 token_type_ids=token_type_ids)
+                                                 token_type_ids=token_type_ids,
+                                                 return_dict=False)
 
         slot_hidden = self.bert.embeddings(slot_input_ids[0][0]).mean(-2)
 
