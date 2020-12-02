@@ -272,7 +272,7 @@ def main():
     args.n_gpu = torch.cuda.device_count()
     set_seed(args)
 
-    logger.warning("Process device: %s, n_gpu: %s, 16-bits training: %s", args.device, args.n_gpu)
+    logger.warning("Process device: %s, n_gpu: %s, 16-bits training: %s", args.device, args.n_gpu, args.fp16)
     logger.info("Training/evaluation parameters %s", args)
 
     if args.fp16:
