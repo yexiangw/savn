@@ -4,8 +4,7 @@ from io import open
 from tqdm import tqdm
 import os
 import pickle
-from transformers.tokenization_bert import BertTokenizer
-from transformers import BertModel, BertConfig
+from transformers import BertTokenizer, BertConfig
 from vn_model import ValueNormalize
 import torch
 from torch import nn
